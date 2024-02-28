@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Change Div Styles with DOM</title>
+<style>
+/* Optional: Some initial styles for the div */
+#myDiv {
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 100px;
+    width: 200px;
+}
+</style>
+</head>
+<body>
+
+<div id="myDiv"><b>Hello, I'm a div!</b></div>
+
+<script>
+// Get a reference to the div element
+var myDiv = document.getElementById('myDiv');
+
+// Modify its style properties
+myDiv.style.backgroundColor = 'yellow';
+myDiv.style.color = 'black';
+myDiv.style.margin = '20px';
+myDiv.style.padding = '30px';
+myDiv.style.fontSize = '30px';
+myDiv.style.fontWeight = 'normal';
+myDiv.style.height = '300px';
+myDiv.style.width = '500px';
+myDiv.style.color='blue';
+</script>
+
+</body>
+</html>
